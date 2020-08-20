@@ -311,9 +311,9 @@ def convert():
         elif (select1.get() == "in"):
             e2.insert(0, value1)
 conv.geometry("768x650")
-conv.title("Length Convertor")
+conv.title("Length Converter")
 conv.wm_iconbitmap("length_f3N_icon.ico")
-Label(text="Length Convertor",font="comicsansms 32 bold",fg="orange").grid(column=21)
+Label(text="Length Converter",font="comicsansms 32 bold",fg="orange").grid(column=21)
 v1 = IntVar()
 v2=IntVar()
 select=StringVar(conv)
